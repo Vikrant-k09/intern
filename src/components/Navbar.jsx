@@ -11,7 +11,7 @@ const Nav = () => {
         
             <div className="flex items-center gap-4">
             <a href="#">
-              <img src="./src/assets/Ellipse40.png" alt="logo" width={60} height={60} className="max-w-30 h-30 md:max-w-none" />
+              <img src="./public/assets/Ellipse40.png" alt="logo" width={60} height={60} className="max-w-30 h-30 md:max-w-none" />
             </a>
             <div className="hidden md:block">
               <SearchBar />
@@ -46,7 +46,7 @@ const Nav = () => {
               </div>
 
               <a href="#">
-                <img src="./src/assets/avatar.png" alt="User Avatar" className="h-10 w-10 rounded-full" />
+                <img src="./public/assets/avatar.png" alt="User Avatar" className="h-10 w-10 rounded-full" />
               </a>
             </div>
           </div>
