@@ -25,7 +25,7 @@ const Hero = () => {
               <div className="mb-4 md:mb-0 md:mr-6">
                 <img
                   className="rounded-full md:mx-0 max-md:w-[100px] h-[100px]"
-                  src="./public/assets/heroavatar.png"
+                  src="/assets/heroavatar.png"
                   alt="Ridhima Sen"
                 />
               </div>

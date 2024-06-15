@@ -12,7 +12,7 @@ const Booking = ({ bookingId, category, sessionTime, sessionDate, duration, stat
 
 
               <div className="text-center">
-                <img src="./public/assets/Bookingid.png" className="rounded-full w-16 h-16" />
+                <img src="/assets/Bookingid.png" className="rounded-full w-16 h-16" />
                 <div className="text-gray-700">Booking ID</div>
                 <div className="text-black font-bold">{bookingId}</div>
               </div>
@@ -21,7 +21,7 @@ const Booking = ({ bookingId, category, sessionTime, sessionDate, duration, stat
 
 
             <div className="flex flex-col items-center">
-            <img src="./public/assets/category.png" className="rounded-full w-16 h-16" />
+            <img src="/assets/category.png" className="rounded-full w-16 h-16" />
 
               <div className="text-center">
                 <div className="text-gray-700">Consultation Category</div>
@@ -29,7 +29,7 @@ const Booking = ({ bookingId, category, sessionTime, sessionDate, duration, stat
               </div>
             </div>
             <div className="flex flex-col items-center mt-6">
-            <img src="./public/assets/20.png" className="rounded-full w-16 h-16" />
+            <img src="/assets/20.png" className="rounded-full w-16 h-16" />
               <div className="text-center">
                 <div className="text-gray-700">Session Time & Date</div>
                 <div className="text-black font-bold">
@@ -39,7 +39,7 @@ const Booking = ({ bookingId, category, sessionTime, sessionDate, duration, stat
               </div>
             </div>
             <div className="flex flex-col items-center">
-            <img src="./public/assets/17.png" className="rounded-full w-16 h-16" />
+            <img src="/assets/17.png" className="rounded-full w-16 h-16" />
               <div className="text-center">
                 <div className="text-gray-700">Booking Status</div>
                 <div className={`font-bold ${status === "Confirmed" ? "text-blue-500" : "text-red-500"}`}>
